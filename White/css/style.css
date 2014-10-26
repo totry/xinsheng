@@ -1422,7 +1422,7 @@ header.style-3.style-5 .down-header {
 }
 
 .logo {
-	margin:30px 0 45px 0;
+	margin:10px 0 10px 0;
 }
 
 header.style-3 .logo {
@@ -1684,25 +1684,25 @@ body.under-construction .content input.subscribe-button {
 }
 
 /* slider */
-.slider-1 .slides li .item {
+.slider-2 .slides  .item {
 	max-width:45%;
 }
 
-.slider-1 .slides li .contain, .slider-1 .loading {
+.slider-2 .slides .contain, .slider-1 .loading {
 	min-height: 220px;
 }
 
-.slider-1 .slides li h2, .slider-1 .slides li p, .slider-1 .slides li .links {
+.slider-2 .slides  h2, .slider-1 .slides  p, .slider-1 .slides li .links {
 	max-width: 280px;
 	min-width: 280px;
 }
 
-.slider-1 .slides li h2 {
+.slider-2 .slides  h2 {
 	font-size: 22px;
 	line-height: 32px;
 }
 
-.slider-1 .slides li p, .slider-1 .slides li .links {
+.slider-2 .slides  p, .slider-1 .slides  .links {
 	display:none;
 }
 
@@ -1716,7 +1716,7 @@ header .search form {
 }
 
 .slider-2 .slides h2, .slider-2 .slides p, .slider-2 .slides .links {
-	width: 100%;
+	width: 100%; 
     padding: 0;
 }
 

@@ -22,6 +22,46 @@
 
 /* this logo width & height , you can change it depend on your logo */
 .logo img {
-	width:96px;
-	height:96px;
+	width:170px;
+	height:70px;
+}
+
+.container.topslider{
+	padding-top: 90px;
+}
+.container.topslider span{
+	color: #fff;               
+}
+.container.topslider p{
+	margin-top: 25px;
+}
+.container.topslider .links a{
+	position: relative;
+	top:0px;
+	left:0px;
+	width: 200px;
+
+	margin-top: 40px;
+	text-align: center;
+}
+.container.topslider .button2 a{
+	position: relative;
+	top:0px;
+	left:0px;
+	width: 66px;
+
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.container.topslider .links,.container.topslider .button2{
+	text-align: center;
+}
+.container.topslider img{
+	margin-top: 40px;
+}
+
 }
