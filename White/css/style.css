@@ -450,8 +450,8 @@ span.copyright {
 
 /* team */
 .team .item {
-	margin-bottom:30px !important;
-	min-height:397px;
+/*	margin-bottom:30px !important;*/
+/*	min-height:397px;*/
 }
 
 .team.columns-4 .item {
