@@ -38,12 +38,37 @@
   <div id="wrap" class="boxed">
     <header class="fixed" id="home">
       <!-- delete top-bar -->
+        <div class="top-bar">
+       <div class="container clearfix">
+        <div class="slidedown">
+        
+         <div class="eight columns">
+           <div class="phone-mail">
+             <a><i class="icon-phone"></i> Phone : +22 665 450 210</a>
+             <a href="info@website.com"><i class="icon-envelope-alt"></i> Mail : info@website.com</a>
+           </div><!-- End phone-mail -->
+         </div>
+         <div class="eight columns">
+           <div class="social">
+           <a href="#"><i class="social_icon-twitter s-14"></i></a>
+           <a href="#"><i class="social_icon-facebook s-18"></i></a>
+           <a href="#"><i class="social_icon-dribbble s-18"></i></a>
+           <a href="#"><i class="social_icon-appstore s-18"></i></a>
+           <a href="#"><i class="social_icon-amazon s-18"></i></a>
+           <a href="#"><i class="social_icon-rss s-18"></i></a>
+           </div>
+          </div><!-- End social-icons -->
+          
+         </div><!-- End slidedown -->
+       </div><!-- End Container -->
+       
+     </div><!-- End top-bar -->
       <div class="main-header">
         <div class="container clearfix">
           <!-- delete a small button --><!-- this appear on small devices -->
           <div class="one-third column">
             <div class="logo">
-              <a href="index.html">
+              <a href="#home">
                 <img src="images/logo_new.png" alt="心声" />
               </a>
             </div>
@@ -55,8 +80,9 @@
               <ul id="nav">
                 <li class="active"><a href="#home">主页</a></li>
                 <li><a href="#videos">视频教程</a></li>
-                <li><a href="#portfolio">用户故事</a></li>
-                <li><a href="#about">下载</a></li>
+                <li><a href="#story">用户故事</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#download">下载</a></li>
               </ul>
             </nav>
           </div><!-- End Menu -->
@@ -65,7 +91,7 @@
     </header><!-- <<< End Header >>> -->
    
     <div class="clearfix">
-      <div class="">
+      
         <div style="background:url(images/img/sliders/slider-2/slider-bg-2.jpg) no-repeat;background-position:50% 0;background-size:cover">
           <div class="container topslider">
             <div class="eight columns contain">
@@ -91,9 +117,43 @@
             <img  src="images/img/sliders/slider-1/slider-item-1.png" class="item eight columns"  data-topimage="16%"/>
           </div><!-- End Container -->
             
-          </div><!-- End item -->
+        </div><!-- End item -->
+<!--        <div><iframe height=600 width=800 src="http://player.youku.com/embed/XODI5NTQwNjI4" frameborder=0 allowfullscreen></iframe></div>-->
+    <div class="container feature">
+        <div class="one-third column item element-3 Web Animation" data-categories="Web Animation">
+        <a class="fancybox" href="images/img/portfolio/single/image-1-1.jpg" data-fancybox-group="gallery" 
+        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
+          <img src="images/img/portfolio/thumb-1.jpg" alt="" class="pic" />
+          
+          <div class="desc"><h3>Apple Creative</h3><p>放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介</p></div>
+          
+          </a>
       </div>
+      <!-- End -->
       
+     <!-- item 2 -->
+      <div class="one-third column item element-3 Logo Photography" data-categories="Logo Photography">
+        <a class="fancybox" href="images/img/portfolio/single/image-1-2.jpg" data-fancybox-group="gallery" 
+        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
+          <img src="images/img/portfolio/thumb-2.jpg" alt="" class="pic" />
+          
+          <div class="desc"><h3>Apple Creative</h3><p>放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介</p></div>
+          
+          </a>
+      </div>
+      <!-- End -->
+      
+      <!-- item 3 -->
+      <div class="one-third column item element-3 Web Photography" data-categories="Web Photography">
+        <a class="fancybox" href="images/img/blog/single/image-1-1.jpg" data-fancybox-group="gallery" 
+        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
+          <img src="images/img/portfolio/thumb-3.jpg" alt="" class="pic" />
+          
+          <div class="desc"><h3>Apple Creative</h3><p>放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介</p></div>
+          
+          </a>
+      </div>    
+    </div>
      
    </div><!-- End slider -->
    
@@ -105,8 +165,8 @@
        <div class="sixteen columns"> 
         <h2 class="title">视频教程  </h2> 
         <p class="description bottom-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-           dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled . 
+          放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介
+           放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介放一段简介 
         </p>
        </div>
      
@@ -177,7 +237,7 @@
    
    <!-- ======================== Start Our Work ======================== -->
    
-    <div class="portfolio bottom-4" id="portfolio">
+    <div class="portfolio bottom-4" id="story">
      <div class="container top-5 clearfix">
     
     <div class="sixteen columns"> 
@@ -188,139 +248,11 @@
         </p>
     </div>
     
-    <div class="sixteen columns">  
-      <div class="title clearfix" id="options">
-        <ul id="filters" class="option-set clearfix" data-option-key="filter">
-        <li><a href="#filter" data-option-value="*" class="selected">All</a></li>
-        <li><a href="#filter" data-option-value=".Web">Web Design</a></li>
-        <li><a href="#filter" data-option-value=".Animation">Animation </a></li>
-        <li><a href="#filter" data-option-value=".Logo">Logo Design</a></li>
-        <li><a href="#filter" data-option-value=".Photography">Photography</a></li>
-        </ul>
-      </div>
-    </div> <!-- End options -->
+    
     
     <div class="clearfix"></div>
     
-    <div id="contain"> 
     
-    <!-- =================================================== -->
-    
-    <!-- item 1 -->
-      <div class="one-third column item element-3 Web Animation" data-categories="Web Animation">
-        <a class="fancybox" href="images/img/portfolio/single/image-1-1.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-1.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Web Design, Animation</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-      
-     <!-- item 2 -->
-      <div class="one-third column item element-3 Logo Photography" data-categories="Logo Photography">
-        <a class="fancybox" href="images/img/portfolio/single/image-1-2.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-2.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Logo Design, Photography</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-      
-      <!-- item 3 -->
-      <div class="one-third column item element-3 Web Photography" data-categories="Web Photography">
-        <a class="fancybox" href="images/img/blog/single/image-1-1.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-3.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Web Design, Photography</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-      
-      <!-- =================================================== -->
-      
-      <!-- item 4 -->
-      <div class="one-third column item element-3 Photography Animation" data-categories="Web Photography">
-        <a class="fancybox" href="images/img/blog/single/image-1-2.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-4.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Web Design, Photography</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-      
-      <!-- item 5 -->
-      <div class="one-third column item element-3 Web Animation" data-categories="Web Animation">
-        <a class="fancybox" href="images/img/portfolio/thumb-5.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-5.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Web Design, Animation</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-      
-     <!-- item 6 -->
-      <div class="one-third column item element-3 Logo Photography" data-categories="Logo Photography">
-        <a class="fancybox" href="images/img/portfolio/thumb-6.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-6.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Logo Design, Photography</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-      
-      <!-- =================================================== -->
-      
-      <!-- item 7 -->
-      <div class="one-third column item element-3 Web Photography" data-categories="Web Photography">
-        <a class="fancybox" href="images/img/portfolio/thumb-1.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-1.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Web Design, Photography</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-      
-      <!-- item 8 -->
-      <div class="one-third column item element-3 Photography Animation" data-categories="Web Photography">
-        <a class="fancybox" href="images/img/portfolio/thumb-2.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-2.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Web Design, Photography</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-    
-    <!-- item 1 -->
-      <div class="one-third column item element-3 Web Animation" data-categories="Web Animation">
-        <a class="fancybox" href="images/img/portfolio/thumb-1.jpg" data-fancybox-group="gallery" 
-        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
-          <img src="images/img/portfolio/thumb-1.jpg" alt="" class="pic" />
-          <div class="img-caption">
-          <div class="desc"><h3>Apple Creative</h3><p>Web Design, Animation</p><span><i class="icon-search"></i></span></div>
-          </div><!-- hover effect -->
-          </a>
-      </div>
-      <!-- End -->
-      
-      <!-- =================================================== -->
-    
-    </div><!-- End contain-->
     
      </div><!-- End Container -->
     </div><!-- End portfolio -->
@@ -353,13 +285,7 @@
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
         </p>
-        <div class="member-social">
-         <a href="#"><i class="social_icon-twitter s-17"></i></a>
-         <a href="#"><i class="social_icon-facebook s-18"></i></a>
-         <a href="#"><i class="social_icon-dribbble s-18"></i></a>
-         <a href="#"><i class="social_icon-gplus s-18"></i></a>
-         <a href="#"><i class="social_icon-linkedin s-17"></i></a>
-        </div>
+        
       </div>
       <!-- End -->
       
@@ -371,13 +297,7 @@
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
-        <div class="member-social">
-        <a href="#"><i class="social_icon-twitter s-17"></i></a>
-         <a href="#"><i class="social_icon-facebook s-18"></i></a>
-         <a href="#"><i class="social_icon-dribbble s-18"></i></a>
-         <a href="#"><i class="social_icon-gplus s-18"></i></a>
-         <a href="#"><i class="social_icon-linkedin s-17"></i></a>
-        </div>
+        
       </div>
       <!-- End -->
       
@@ -389,13 +309,7 @@
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
-        <div class="member-social">
-        <a href="#"><i class="social_icon-twitter s-17"></i></a>
-         <a href="#"><i class="social_icon-facebook s-18"></i></a>
-         <a href="#"><i class="social_icon-dribbble s-18"></i></a>
-         <a href="#"><i class="social_icon-gplus s-18"></i></a>
-         <a href="#"><i class="social_icon-linkedin s-17"></i></a>
-        </div>
+        
       </div>
       <!-- End -->
       
@@ -406,49 +320,6 @@
      <div class="sixteen columns clearfix"><hr class="line bottom-2 top-2"></div><!-- End line -->
      
        
-       <div class="eight columns top-2">
-      <h3 class="title bottom-2">What we believe</h3> 
-      <div id="accordion" class="accordion style2">
-      
-        <h4><a href="#">Our Clients</a></h4>
-        <div><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-        dummy text ever since the 1500s, when an unknown printer took a galley of type.
-        </p></div>
-        
-        <h4><a href="#">Management</a></h4>
-        <div><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-        dummy text ever since the 1500s, when an unknown printer took a galley of type.
-        </p></div>
-       
-       </div><!-- End what we beleive -->
-    </div><!-- End column -->
-    
-    <div class="eight columns top-2">
-       <h3 class="title bottom-2">Our Skills</h3> 
-       <ul class="progress-bar">
-        
-          <li class="meter">
-          <div class="meter-content" data-percentage="50" style="width: 50%"></div>
-          <span class="meter-title">Web Design 50%</span>
-          </li>
-          
-          <li class="meter">
-          <div class="meter-content" data-percentage="80" style="width: 80%"></div>
-          <span class="meter-title">Wordpress 80%</span>
-          </li>
-          
-          <li class="meter">
-          <div class="meter-content" data-percentage="100" style="width: 100%"></div>
-          <span class="meter-title">Branding 100%</span>
-          </li>
-          
-          <li class="meter">
-          <div class="meter-content" data-percentage="70" style="width: 70%"></div>
-          <span class="meter-title">HTML/CSS 70%</span>
-          </li>
-				
-		</ul>
-     </div><!-- End Our skills -->
        
     </div><!-- End Container -->
    </div><!-- End about -->
@@ -457,281 +328,13 @@
    
    <!-- ======================== Start Testimonials ======================== -->
    
-   <div class="bottom-3" id="testimonials">
-     <div class="container clearfix">
-     
-      <div class="sixteen columns"> 
-        <h2 class="title top-1">Testimonials</h2> 
-        <p class="description bottom-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-           dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled . 
-        </p>
-       </div>
-       
-       <div class="sixteen columns bottom-3">
-    
-     <div class="slidewrap1" data-autorotate="4000">
-      
-       <ul class="slider" id="sliderName1">
-      
-      <li class="slide">
-      
-      <div class="testimonials">
-        <div class="testimonial-item">
-            <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-            </p>
-            <div class="testimonials-arrow"></div>
-            <div class="author"><a href="#"><span class="color">Mohamed</span></a>, Company Name</div>
-          </div>
-      </div><!-- End testimonials -->
-      
-      </li><!-- End slide -->
-      
-       <li class="slide">
-      
-      <div class="testimonials">
-        <div class="testimonial-item">
-            <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-            </p>
-            <div class="testimonials-arrow"></div>
-            <div class="author"><a href="#"><span class="color">Mohamed</span></a>, Company Name</div>
-          </div>
-      </div><!-- End testimonials -->
-      
-      </li><!-- End slide -->
-      
-       <li class="slide">
-      
-      <div class="testimonials">
-        <div class="testimonial-item">
-            <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-            </p>
-            <div class="testimonials-arrow"></div>
-            <div class="author"><a href="#"><span class="color">Mohamed</span></a>, Company Name</div>
-          </div>
-      </div><!-- End testimonials -->
-      
-      </li><!-- End slide -->
-        
-        </ul>
-      
-      </div><!-- End slidewrap -->
-      
-    </div><!-- End column -->
-       
-       
-        </div><!-- End Container -->
-   </div><!-- End about -->
    
-   <!-- ======================== End ======================== -->
-   
-   <!-- ======================== Start Pricing Table ======================== -->
-   
-   <div class="home-bg bottom-3" id="pricing_table">
-     <div class="container clearfix">
-     
-      <div class="sixteen columns"> 
-        <h2 class="title">Pricing Table</h2> 
-        <p class="description bottom-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-           dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled . 
-        </p>
-       </div>
-       
-       <div class="four columns tables-column">
-     
-      <div class="header">
-        <h3>Standard <span class="pop">Popular</span></h3>
-        <div class="price">
-        <h2>$3.99</h2>
-        <span>Start price / month</span>
-        </div>
-      </div><!-- End header -->
-      <ul class="list">
-        <li>10 GB Storage Space</li>
-        <li>50 GB Bandwidth</li>
-        <li>Unlimited Users</li>
-        <li>No Time Tracking</li>
-        <li>Enhanced Security</li>
-      </ul>
-      <div class="footer">
-        <h4><a href="#">Buy Now</a></h4>
-      </div><!-- End footer -->
-      
-     </div><!-- End column -->
-     
-     <div class="four columns tables-column">
-     
-      <div class="header">
-        <h3>Premium</h3>
-        <div class="price">
-        <h2>$6.99</h2>
-        <span>Start price / month</span>
-        </div>
-      </div><!-- End header -->
-      <ul class="list">
-        <li>10 GB Storage Space</li>
-        <li>50 GB Bandwidth</li>
-        <li>Unlimited Users</li>
-        <li>No Time Tracking</li>
-        <li>Enhanced Security</li>
-      </ul>
-      <div class="footer">
-        <h4><a href="#">Buy Now</a></h4>
-      </div><!-- End footer -->
-      
-     </div><!-- End column -->
-     
-     <!-- ==== Featured Column ==== -->
-     <div class="four columns tables-column color">
-     
-      <div class="header">
-        <h3>Professional</h3>
-        <div class="price">
-        <h2>$8.99</h2>
-        <span>Start price / month</span>
-        </div>
-      </div><!-- End header -->
-      <ul class="list">
-        <li>10 GB Storage Space</li>
-        <li>50 GB Bandwidth</li>
-        <li>Unlimited Users</li>
-        <li>No Time Tracking</li>
-        <li>Enhanced Security</li>
-      </ul>
-      <div class="footer">
-        <h4><a href="#">Buy Now</a></h4>
-      </div><!-- End footer -->
-      
-     </div><!-- End column -->
-     <!-- ==== End Featured Column ==== -->
-     
-     <div class="four columns tables-column">
-     
-      <div class="header">
-        <h3>Maximum</h3>
-        <div class="price">
-        <h2>$9.99</h2>
-        <span>Start price / month</span>
-        </div>
-      </div><!-- End header -->
-      <ul class="list">
-        <li>10 GB Storage Space</li>
-        <li>50 GB Bandwidth</li>
-        <li>Unlimited Users</li>
-        <li>No Time Tracking</li>
-        <li>Enhanced Security</li>
-      </ul>
-      <div class="footer">
-        <h4><a href="#">Buy Now</a></h4>
-      </div><!-- End footer -->
-      
-     </div><!-- End column -->
-       
-       
-       
-        </div><!-- End Container -->
-   </div><!-- End about -->
    
    <!-- ======================== End ======================== -->
    
    <!-- ======================== Start Contact ======================== -->
    
-   <div class="bottom-3" id="contact">
-     <div class="container clearfix">
-     
-      <div class="sixteen columns"> 
-        <h2 class="title">Contact Us</h2> 
-        <p class="description bottom-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-           dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled . 
-        </p>
-       </div>
-       
-       <div class="clearfix"></div>
-       
-       <!-- Start Google Map -->
-       <div id="map"></div>
-       <!-- End -->
-       
-       <div class="eleven columns top-3 bottom-2">
-       <h3 class="title bottom-2">Get in touch</h3>
-       
-       <div id="note"></div><!-- End notification -->
-      
-      <div id="fields">
-      
-       <form id="ajax-contact-form" action="">
-      
-      <div class="form-box">
-        <label>Name <small>*</small></label>
-        <input type="text" name="name" class="text">
-      </div><!-- End Box -->
-      
-      <div class="form-box">
-        <label>Email <small>*</small></label>
-        <input type="text" name="email" class="text">
-      </div><!-- End Box -->
-      
-      <div class="form-box last">
-        <label>Subject </label>
-        <input type="text" name="subject" class="text">
-      </div><!-- End Box -->
-      
-      <div class="form-box big">
-        <label>Message <small>*</small></label>
-        <textarea name="message"></textarea>
-      </div><!-- End Box -->
-      
-      <div class="clearfix"></div>
-      
-      <input type="submit" value="Send Message" class="button medium color" />
-      
-      </form>
-      
-      </div><!-- End fields -->
-      
-     </div>
-      
-     <div class="five columns top-3 bottom-2">
-       <h3 class="title bottom-2">Contact Info</h3>
-       
-       <ul class="address-info">
-         <li>30 TF Street, Cairo City, EGYPT</li>
-       </ul>
-       
-       <ul class="phone-info">
-         <li>(002) 5605 - 6553 - 9954</li>
-       </ul>
-       
-       <ul class="email-info">
-         <li>info@website.com </li>
-       </ul>
-       
-       <h3 class="title top-2 bottom-2">Social Contact</h3>
-       <div class="share-social">
-      <a href="#" target="_blank"><i class="social_icon-twitter s-17 white"></i></a>
-      <a href="#" target="_blank"><i class="social_icon-facebook s-18 white"></i></a>
-      <a href="#" target="_blank"><i class="social_icon-dribbble s-18 white"></i></a>
-      <a href="#" target="_blank"><i class="social_icon-linkedin s-17 white"></i></a>
-      <a href="#" target="_blank"><i class="social_icon-gplus s-18 white"></i></a>
-      </div>
-       
-     </div>
-       
-       
-       
-        </div><!-- End Container -->
-   </div><!-- End about -->
+   
    
    <!-- ======================== End ======================== -->
     

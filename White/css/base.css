@@ -299,7 +299,7 @@ body.under-construction .content h2.title {
 /* Aligns
 ================================================== */
 .services.style-1 .item h3, .services.style-1 .item .circle, .services.style-1 .item p, .slidecontrols li a, .more, #toTop, table.style th, table.style td, .welcome, .services.style-2 .item .circle, .services.style-3 .item .circle, .page-404 .oops, .page-404 .text, .tables-column, .flex-direction-nav li a, .blog-3 #options #filters, .blog-3 .pagination-contain, .member-social a, .share-social a, body.under-construction header .logo, body.under-construction .content, body.under-construction footer, header.style-3.style-5 .logo, header.style-3.style-5 .navigation, .slider-2 .slides .contain, .one-page h2.title, .one-page p.description, .one-page #options #filters, .one-page h1.title, .download-now, .welcome-text, .notification_ok  {
-	text-align:left;
+	text-align:center;
 }
 
 header.style-3.style-5 .navigation > #nav, .one-page.section h2, .one-page.section p, .notification_error {
