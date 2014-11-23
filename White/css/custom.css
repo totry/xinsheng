@@ -56,6 +56,23 @@
 .container.feature {
     padding:55px 0;
 }
+#download .left,#download .right {
+    margin: 0,auto;
+    text-align: center;
+    
+}
+#download .button {
+    margin-bottom: 14px; 
+}
+.contributor {
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+span.copyright {
+    text-align: center;
+}
 
 
 @media only screen and (max-width: 767px) {
