@@ -85,5 +85,13 @@ span.copyright {
 .container.topslider img{
 	margin-top: 40px;
 }
+    
+    #download .left {
+    text-align: center;
+    
+}
+#download .right {
+    text-align: center;
+}
 
 }
