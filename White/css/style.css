@@ -24,11 +24,13 @@
 @import url("base.css");                                 /* Reset & Basics */
 @import url("font-awesome/css/font-awesome.min.css");    /* Font Awesome */
 @import url("fontello/css/fontello.css");                /* Fontello Social */
+@import url("jquery.fancybox-thumbs.css");
 @import url("skeleton.css");                             /* Base 960 Grid */
 @import url("javascript.css");                           /* Css Styles for js scripts */
 @import url("shortcodes.css");                           /* Css Styles for shortcodes */
 @import url("skins/white.css");                          /* Layout Skin */
 @import url("custom.css");                               /* Css Styles File for any changes you want to add */
+
 
 /* Site Styles
 ================================================== */
