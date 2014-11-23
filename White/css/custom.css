@@ -56,10 +56,12 @@
 .container.feature {
     padding:55px 0;
 }
-#download .left,#download .right {
-    margin: 0,auto;
-    text-align: center;
+#download .left {
+    text-align: right;
     
+}
+#download .right {
+    text-align: left;
 }
 #download .button {
     margin-bottom: 14px; 
